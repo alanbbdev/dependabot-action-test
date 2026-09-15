@@ -1,0 +1,30 @@
+# .github/workflows/dependabot-check.yml
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to check"
+        required: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install dependabot CLI
+        run: |
+          go install github.com/dependabot/cli/cmd/dependabot@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Run update job
+        env:
+          LOCAL_GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: dependabot update npm_and_yarn ${{ github.repository }} --branch ${{ inputs.branch }} -o out.yml
