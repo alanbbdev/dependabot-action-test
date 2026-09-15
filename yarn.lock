@@ -5688,13 +5688,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/normalize-package-data@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "@types/normalize-package-data@npm:2.4.0"
-  checksum: 10c0/f5504a9fe5cb6b82d9d2fb7982e4681f51bd31dc6c4750f833ca6499a2372294e58c0e2e0f5d78066f3c212c553c85cdbf653c5d6035f902d00822e7f3590c28
-  languageName: node
-  linkType: hard
-
 "@types/probe-image-size@npm:^7.2.5":
   version: 7.2.5
   resolution: "@types/probe-image-size@npm:7.2.5"
@@ -9047,13 +9040,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "ci-info@npm:2.0.0"
-  checksum: 10c0/8c5fa3830a2bcee2b53c2e5018226f0141db9ec9f7b1e27a5c57db5512332cde8a0beb769bcbaf0d8775a78afbf2bb841928feca4ea6219638a5b088f9884b46
-  languageName: node
-  linkType: hard
-
 "ci-info@npm:^3.1.1, ci-info@npm:^3.7.1":
   version: 3.9.0
   resolution: "ci-info@npm:3.9.0"
@@ -9067,183 +9053,6 @@ __metadata:
   checksum: 10c0/725cabad267e601ec4be269e1af744bedede3bdd42f25bc269d97c05be31bc2edfa8511d8b0eedf27c42ffb87c1dc21af49b20fae1d9ac0345963b13499e8a99
   languageName: node
   linkType: hard
-
-"cierra@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "cierra@workspace:."
-  dependencies:
-    "@adobe/target-nodejs-sdk": "npm:^2.4.3"
-    "@babel/core": "npm:^7.28.0"
-    "@babel/eslint-parser": "npm:^7.28.0"
-    "@babel/plugin-proposal-private-property-in-object": "npm:^7.21.11"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.27.1"
-    "@babel/preset-env": "npm:^7.28.0"
-    "@babel/runtime": "npm:^7.27.6"
-    "@easypost/api": "npm:^3.6.4"
-    "@elastic/elasticsearch": "npm:^5.6.20"
-    "@eslint/js": "npm:^9.39.2"
-    "@google-cloud/pubsub": "npm:^5.2.1"
-    "@google-cloud/retail": "npm:^4.1.0"
-    "@isaacs/ttlcache": "npm:^1.4.1"
-    "@jest/test-sequencer": "npm:^29.7.0"
-    "@nuxtjs/axios": "npm:^4.5.2"
-    "@nuxtjs/pwa": "npm:^3.3.0"
-    "@nuxtjs/style-resources": "npm:^1.0.0"
-    "@stylistic/stylelint-plugin": "npm:^4.0.0"
-    "@types/amqplib": "npm:^0.5.17"
-    "@types/cassandra-driver": "npm:^4.2.4"
-    "@types/cookie-parser": "npm:^1.4.1"
-    "@types/express": "npm:^4.17.13"
-    "@types/express-serve-static-core": "npm:^4.17.24"
-    "@types/jest": "npm:^29.5.4"
-    "@types/js-yaml": "npm:^3.12.7"
-    "@types/jsonwebtoken": "npm:^9.0.2"
-    "@types/lru-cache": "npm:^4.1.1"
-    "@types/luxon": "npm:^3.0.0"
-    "@types/mocha": "npm:^2.2.44"
-    "@types/morgan": "npm:^1.7.35"
-    "@types/node": "npm:^24.0.0"
-    "@types/node-fetch": "npm:^2.5.2"
-    "@types/node-jose": "npm:^1.1.13"
-    "@types/probe-image-size": "npm:^7.2.5"
-    "@types/redis": "npm:^2.8.14"
-    "@types/sanitize-html": "npm:^2.16.0"
-    "@types/sns-validator": "npm:^0.3.0"
-    "@types/ssh2-sftp-client": "npm:^4.1.2"
-    "@types/supertest": "npm:^2.0.12"
-    "@types/uuid": "npm:8.3.2"
-    "@types/validator": "npm:^13.15.10"
-    "@types/yargs": "npm:^13.0.3"
-    "@types/yauzl": "npm:^2.10.0"
-    "@vue/babel-preset-app": "npm:^5.0.8"
-    "@vue/vue2-jest": "npm:^29.2.6"
-    amqplib: "npm:^0.8.0"
-    avatax: "npm:^22.5.0"
-    babel-core: "npm:^7.0.0-bridge.0"
-    babel-jest: "npm:^29.0.3"
-    babel-plugin-dynamic-import-node: "npm:^1.2.0"
-    bamboo-mocha-jest-code-coverage: "npm:^1.0.0"
-    bcrypt: "npm:^5.0.1"
-    body-parser: "npm:1.20.3"
-    cassandra-driver: "npm:^4.8.0"
-    chalk: "npm:^2.4.2"
-    clarify: "npm:^2.1.0"
-    clone: "npm:^2.1.1"
-    cloudinary: "npm:^2.9.0"
-    compare-versions: "npm:^6.1.0"
-    config: "npm:^3.3.12"
-    cookie-parser: "npm:^1.4.3"
-    copyfiles: "npm:^1.2.0"
-    csurf: "npm:^1.9.0"
-    custom-tslint-formatters: "npm:^2.1.1"
-    decimal.js: "npm:^10.0.1"
-    deepmerge: "npm:^3.1.0"
-    dotenv: "npm:^14.3.2"
-    elastic-builder: "npm:^2.23"
-    elastic8: "npm:@elastic/elasticsearch@^8.16.0"
-    eslint: "npm:9.39.2"
-    eslint-bamboo-formatter: "npm:^0.1.0"
-    eslint-plugin-html: "npm:^8.1.2"
-    eslint-plugin-import: "npm:^2.31.0"
-    eslint-plugin-jest: "npm:^28.10.0"
-    eslint-plugin-n: "npm:^17.17.0"
-    eslint-plugin-promise: "npm:^7.2.1"
-    eslint-plugin-vue: "npm:^9.32.0"
-    express: "npm:^4.19.2"
-    express-validator: "npm:^7.3.1"
-    express-winston: "npm:^2.4.0"
-    extract-from-css: "npm:^0.4.4"
-    find-babel-config: "npm:^1.1.0"
-    form-to-object: "npm:^5.1.0"
-    git-revision-webpack-plugin: "npm:^2.5.1"
-    globals: "npm:^16.2.0"
-    handlebars: "npm:^4.7.9"
-    helmet: "npm:^3.21.1"
-    husky: "npm:^3.0.9"
-    ini: "npm:^1.3.5"
-    inversify: "npm:^4.5.2"
-    ip-address: "npm:^10.3.1"
-    ip-matching: "npm:^2.1.2"
-    jest: "npm:^29.7.0"
-    jest-environment-jsdom: "npm:^29.7.0"
-    jest-environment-jsdom-global: "npm:^4.0.0"
-    jest-environment-node: "npm:^29.7.0"
-    js-yaml: "npm:^3.15.0"
-    jsonwebtoken: "npm:^9.0.3"
-    jwks-rsa: "npm:^3.2.0"
-    klaviyo-api: "npm:^11.0.0"
-    lint-staged: "npm:^16.1.2"
-    lodash.template.nocve: "npm:^4.17.21"
-    lru-cache: "npm:^4.1.3"
-    luxon: "npm:^3.2.1"
-    memcached: "npm:^2.2.2"
-    minimist: "npm:^1.2.6"
-    mobile-detect: "npm:^1.4.1"
-    mysql2: "npm:^3.22.0"
-    named-placeholders: "npm:^1.1.2"
-    neostandard: "npm:0.12.2"
-    newrelic: "npm:^12.25.0"
-    node-cache: "npm:^4.1.1"
-    node-fetch: "npm:^2.6.7"
-    node-jose: "npm:^2.2.0"
-    nodemon: "npm:^2.0.19"
-    nuxt: "npm:2.15.8"
-    postcss: "npm:^8.5.26"
-    postcss-html: "npm:^1.8.0"
-    postcss-scss: "npm:^4.0.9"
-    probe-image-size: "npm:7.4.0"
-    prom-client: "npm:^10.2.2"
-    qs: "npm:^6.14.1"
-    redis: "npm:^3.1.2"
-    reflect-metadata: "npm:^0.1.10"
-    rxjs: "npm:^6.5.2"
-    sanitize-html: "npm:^2.17.0"
-    sass: "npm:^1.99.0"
-    sass-loader: "npm:^10.5.2"
-    simple-git: "npm:^3.36.0"
-    simple-vue-validator: "npm:^0.14.2"
-    smartystreets-javascript-sdk: "npm:^1.3.1"
-    sns-validator: "npm:^0.3.4"
-    source-map-support: "npm:^0.4.18"
-    sql-formatter: "npm:^2.1.0"
-    ssh2-sftp-client: "npm:^4.3.1"
-    stable: "npm:^0.1.6"
-    stripe: "npm:^12.6.0"
-    stylelint: "npm:^16.22.0"
-    stylelint-config-recommended-scss: "npm:^15.0.1"
-    stylelint-config-recommended-vue: "npm:^1.6.1"
-    stylelint-junit-formatter: "npm:^0.2.0"
-    supertest: "npm:^6.2.4"
-    trace: "npm:^3.1.0"
-    ts-jest: "npm:^29.4.0"
-    ts-node: "npm:^8.0.3"
-    tslint: "npm:^5.20.0"
-    tslint-eslint-rules: "npm:^4.1.1"
-    tslint-loader: "npm:^3.5.4"
-    ttypescript: "npm:^1.5.15"
-    typescript: "npm:<4.8.0"
-    typescript-formatter: "npm:^7.2.2"
-    uuid: "npm:^8.3.2"
-    validator: "npm:^13.15.22"
-    vue: "npm:2.6.12"
-    vue-cookie: "npm:^1.1.4"
-    vue-eslint-parser: "npm:^9.4.3"
-    vue-router: "npm:^3.6.5"
-    vue-rx: "npm:^6.2.0"
-    vue-scrollto: "npm:^2.10.0"
-    vue-template-compiler: "npm:2.6.12"
-    vue-test-utils: "npm:^1.0.0-beta.9"
-    vue-the-mask: "npm:^0.11.1"
-    vuejs-clipper: "npm:^4.1.0"
-    vuex: "npm:^3.6.2"
-    web-vitals: "npm:^5.1.0"
-    webpack: "npm:^5.106.0"
-    winston: "npm:^2.4.0"
-    winston-logrotate: "npm:^1.3.0"
-    yargs: "npm:^14.2.0"
-    yauzl: "npm:^2.10.0"
-  languageName: unknown
-  linkType: soft
 
 "cipher-base@npm:^1.0.7":
   version: 1.0.7
@@ -9989,7 +9798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^5.0.0, cosmiconfig@npm:^5.2.1":
+"cosmiconfig@npm:^5.0.0":
   version: 5.2.1
   resolution: "cosmiconfig@npm:5.2.1"
   dependencies:
@@ -10887,6 +10696,182 @@ __metadata:
   checksum: 10c0/acb24aaf936ef9a227b6be6d495f0d2eb20108a9a6ad40585c5bda1a897031512fef6484e4fdbb80bd249fdaa82841fa1039f416ece03188e677ba11bcfda249
   languageName: node
   linkType: hard
+
+"dependabot-action-test@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "dependabot-action-test@workspace:."
+  dependencies:
+    "@adobe/target-nodejs-sdk": "npm:^2.4.3"
+    "@babel/core": "npm:^7.28.0"
+    "@babel/eslint-parser": "npm:^7.28.0"
+    "@babel/plugin-proposal-private-property-in-object": "npm:^7.21.11"
+    "@babel/plugin-transform-modules-commonjs": "npm:^7.27.1"
+    "@babel/preset-env": "npm:^7.28.0"
+    "@babel/runtime": "npm:^7.27.6"
+    "@easypost/api": "npm:^3.6.4"
+    "@elastic/elasticsearch": "npm:^5.6.20"
+    "@eslint/js": "npm:^9.39.2"
+    "@google-cloud/pubsub": "npm:^5.2.1"
+    "@google-cloud/retail": "npm:^4.1.0"
+    "@isaacs/ttlcache": "npm:^1.4.1"
+    "@jest/test-sequencer": "npm:^29.7.0"
+    "@nuxtjs/axios": "npm:^4.5.2"
+    "@nuxtjs/pwa": "npm:^3.3.0"
+    "@nuxtjs/style-resources": "npm:^1.0.0"
+    "@stylistic/stylelint-plugin": "npm:^4.0.0"
+    "@types/amqplib": "npm:^0.5.17"
+    "@types/cassandra-driver": "npm:^4.2.4"
+    "@types/cookie-parser": "npm:^1.4.1"
+    "@types/express": "npm:^4.17.13"
+    "@types/express-serve-static-core": "npm:^4.17.24"
+    "@types/jest": "npm:^29.5.4"
+    "@types/js-yaml": "npm:^3.12.7"
+    "@types/jsonwebtoken": "npm:^9.0.2"
+    "@types/lru-cache": "npm:^4.1.1"
+    "@types/luxon": "npm:^3.0.0"
+    "@types/mocha": "npm:^2.2.44"
+    "@types/morgan": "npm:^1.7.35"
+    "@types/node": "npm:^24.0.0"
+    "@types/node-fetch": "npm:^2.5.2"
+    "@types/node-jose": "npm:^1.1.13"
+    "@types/probe-image-size": "npm:^7.2.5"
+    "@types/redis": "npm:^2.8.14"
+    "@types/sanitize-html": "npm:^2.16.0"
+    "@types/sns-validator": "npm:^0.3.0"
+    "@types/ssh2-sftp-client": "npm:^4.1.2"
+    "@types/supertest": "npm:^2.0.12"
+    "@types/uuid": "npm:8.3.2"
+    "@types/validator": "npm:^13.15.10"
+    "@types/yargs": "npm:^13.0.3"
+    "@types/yauzl": "npm:^2.10.0"
+    "@vue/babel-preset-app": "npm:^5.0.8"
+    "@vue/vue2-jest": "npm:^29.2.6"
+    amqplib: "npm:^0.8.0"
+    avatax: "npm:^22.5.0"
+    babel-core: "npm:^7.0.0-bridge.0"
+    babel-jest: "npm:^29.0.3"
+    babel-plugin-dynamic-import-node: "npm:^1.2.0"
+    bamboo-mocha-jest-code-coverage: "npm:^1.0.0"
+    bcrypt: "npm:^5.0.1"
+    body-parser: "npm:1.20.3"
+    cassandra-driver: "npm:^4.8.0"
+    chalk: "npm:^2.4.2"
+    clarify: "npm:^2.1.0"
+    clone: "npm:^2.1.1"
+    cloudinary: "npm:^2.9.0"
+    compare-versions: "npm:^6.1.0"
+    config: "npm:^3.3.12"
+    cookie-parser: "npm:^1.4.3"
+    copyfiles: "npm:^1.2.0"
+    csurf: "npm:^1.9.0"
+    custom-tslint-formatters: "npm:^2.1.1"
+    decimal.js: "npm:^10.0.1"
+    deepmerge: "npm:^3.1.0"
+    dotenv: "npm:^14.3.2"
+    elastic-builder: "npm:^2.23"
+    elastic8: "npm:@elastic/elasticsearch@^8.16.0"
+    eslint: "npm:9.39.2"
+    eslint-bamboo-formatter: "npm:^0.1.0"
+    eslint-plugin-html: "npm:^8.1.2"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-jest: "npm:^28.10.0"
+    eslint-plugin-n: "npm:^17.17.0"
+    eslint-plugin-promise: "npm:^7.2.1"
+    eslint-plugin-vue: "npm:^9.32.0"
+    express: "npm:^4.19.2"
+    express-validator: "npm:^7.3.1"
+    express-winston: "npm:^2.4.0"
+    extract-from-css: "npm:^0.4.4"
+    find-babel-config: "npm:^1.1.0"
+    form-to-object: "npm:^5.1.0"
+    git-revision-webpack-plugin: "npm:^2.5.1"
+    globals: "npm:^16.2.0"
+    handlebars: "npm:^4.7.9"
+    helmet: "npm:^3.21.1"
+    ini: "npm:^1.3.5"
+    inversify: "npm:^4.5.2"
+    ip-address: "npm:^10.3.1"
+    ip-matching: "npm:^2.1.2"
+    jest: "npm:^29.7.0"
+    jest-environment-jsdom: "npm:^29.7.0"
+    jest-environment-jsdom-global: "npm:^4.0.0"
+    jest-environment-node: "npm:^29.7.0"
+    js-yaml: "npm:^3.15.0"
+    jsonwebtoken: "npm:^9.0.3"
+    jwks-rsa: "npm:^3.2.0"
+    klaviyo-api: "npm:^11.0.0"
+    lint-staged: "npm:^16.1.2"
+    lodash.template.nocve: "npm:^4.17.21"
+    lru-cache: "npm:^4.1.3"
+    luxon: "npm:^3.2.1"
+    memcached: "npm:^2.2.2"
+    minimist: "npm:^1.2.6"
+    mobile-detect: "npm:^1.4.1"
+    mysql2: "npm:^3.22.0"
+    named-placeholders: "npm:^1.1.2"
+    neostandard: "npm:0.12.2"
+    newrelic: "npm:^12.25.0"
+    node-cache: "npm:^4.1.1"
+    node-fetch: "npm:^2.6.7"
+    node-jose: "npm:^2.2.0"
+    nodemon: "npm:^2.0.19"
+    nuxt: "npm:2.15.8"
+    postcss: "npm:^8.5.26"
+    postcss-html: "npm:^1.8.0"
+    postcss-scss: "npm:^4.0.9"
+    probe-image-size: "npm:7.4.0"
+    prom-client: "npm:^10.2.2"
+    qs: "npm:^6.14.1"
+    redis: "npm:^3.1.2"
+    reflect-metadata: "npm:^0.1.10"
+    rxjs: "npm:^6.5.2"
+    sanitize-html: "npm:^2.17.0"
+    sass: "npm:^1.99.0"
+    sass-loader: "npm:^10.5.2"
+    simple-git: "npm:^3.36.0"
+    simple-vue-validator: "npm:^0.14.2"
+    smartystreets-javascript-sdk: "npm:^1.3.1"
+    sns-validator: "npm:^0.3.4"
+    source-map-support: "npm:^0.4.18"
+    sql-formatter: "npm:^2.1.0"
+    ssh2-sftp-client: "npm:^4.3.1"
+    stable: "npm:^0.1.6"
+    stripe: "npm:^12.6.0"
+    stylelint: "npm:^16.22.0"
+    stylelint-config-recommended-scss: "npm:^15.0.1"
+    stylelint-config-recommended-vue: "npm:^1.6.1"
+    stylelint-junit-formatter: "npm:^0.2.0"
+    supertest: "npm:^6.2.4"
+    trace: "npm:^3.1.0"
+    ts-jest: "npm:^29.4.0"
+    ts-node: "npm:^8.0.3"
+    tslint: "npm:^5.20.0"
+    tslint-eslint-rules: "npm:^4.1.1"
+    tslint-loader: "npm:^3.5.4"
+    ttypescript: "npm:^1.5.15"
+    typescript: "npm:<4.8.0"
+    typescript-formatter: "npm:^7.2.2"
+    uuid: "npm:^8.3.2"
+    validator: "npm:^13.15.22"
+    vue: "npm:2.6.12"
+    vue-cookie: "npm:^1.1.4"
+    vue-eslint-parser: "npm:^9.4.3"
+    vue-router: "npm:^3.6.5"
+    vue-rx: "npm:^6.2.0"
+    vue-scrollto: "npm:^2.10.0"
+    vue-template-compiler: "npm:2.6.12"
+    vue-test-utils: "npm:^1.0.0-beta.9"
+    vue-the-mask: "npm:^0.11.1"
+    vuejs-clipper: "npm:^4.1.0"
+    vuex: "npm:^3.6.2"
+    web-vitals: "npm:^5.1.0"
+    webpack: "npm:^5.106.0"
+    winston: "npm:^2.4.0"
+    winston-logrotate: "npm:^1.3.0"
+    yargs: "npm:^14.2.0"
+    yauzl: "npm:^2.10.0"
+  languageName: unknown
+  linkType: soft
 
 "des.js@npm:^1.0.0":
   version: 1.0.1
@@ -13523,13 +13508,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stdin@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "get-stdin@npm:7.0.0"
-  checksum: 10c0/84d7850d17727f14d582670c4222b167317da43b296b88717abca989b6192eb80f66ca62833d63e749b3c984f3f9113cb6794dc9ecccb29969b8162565162033
-  languageName: node
-  linkType: hard
-
 "get-stream@npm:^4.0.0":
   version: 4.1.0
   resolution: "get-stream@npm:4.1.0"
@@ -14268,13 +14246,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hosted-git-info@npm:^2.1.4":
-  version: 2.8.9
-  resolution: "hosted-git-info@npm:2.8.9"
-  checksum: 10c0/317cbc6b1bbbe23c2a40ae23f3dafe9fa349ce42a89a36f930e3f9c0530c179a3882d2ef1e4141a4c3674d6faaea862138ec55b43ad6f75e387fda2483a13c70
-  languageName: node
-  linkType: hard
-
 "hpagent@npm:^1.2.0":
   version: 1.2.0
   resolution: "hpagent@npm:1.2.0"
@@ -14576,28 +14547,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^3.0.9":
-  version: 3.1.0
-  resolution: "husky@npm:3.1.0"
-  dependencies:
-    chalk: "npm:^2.4.2"
-    ci-info: "npm:^2.0.0"
-    cosmiconfig: "npm:^5.2.1"
-    execa: "npm:^1.0.0"
-    get-stdin: "npm:^7.0.0"
-    opencollective-postinstall: "npm:^2.0.2"
-    pkg-dir: "npm:^4.2.0"
-    please-upgrade-node: "npm:^3.2.0"
-    read-pkg: "npm:^5.2.0"
-    run-node: "npm:^1.0.0"
-    slash: "npm:^3.0.0"
-  bin:
-    husky-run: ./run.js
-    husky-upgrade: ./lib/upgrader/bin.js
-  checksum: 10c0/f88f41f2ca49780df339098310c8d6c68dba66219d32bf8530585f395eabee9e8bac31012ecaeb9daad3a0697f395a7e321855b8118c725dfc2c72164952aac6
-  languageName: node
-  linkType: hard
-
 "iconv-lite@npm:0.4.24, iconv-lite@npm:^0.4.24, iconv-lite@npm:^0.4.4":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -14888,17 +14837,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ip@npm:2.0.1":
-  version: 2.0.1
-  resolution: "ip@npm:2.0.1"
-  checksum: 10c0/cab8eb3e88d0abe23e4724829621ec4c4c5cb41a7f936a2e626c947128c1be16ed543448d42af7cca95379f9892bfcacc1ccd8d09bc7e8bea0e86d492ce33616
-  languageName: node
-  linkType: hard
-
-"ip@patch:ip@npm%3A2.0.1#./.yarn/patches/ip-npm-2.0.1-ee48691f03.patch::locator=cierra%40workspace%3A.":
-  version: 2.0.1
-  resolution: "ip@patch:ip@npm%3A2.0.1#./.yarn/patches/ip-npm-2.0.1-ee48691f03.patch::version=2.0.1&hash=ea1cf9&locator=cierra%40workspace%3A."
-  checksum: 10c0/88bc04083828b61663882044244c8428de8513ebd3ea20f5aff0c63ae1822d7c80e5e949641ff05bffca41bf51729d6863cd5a7a56c1e8dd416a3ddfe28a7cce
+"ip@npm:^1.1.5":
+  version: 1.1.9
+  resolution: "ip@npm:1.1.9"
+  checksum: 10c0/5af58bfe2110c9978acfd77a2ffcdf9d33a6ce1c72f49edbaf16958f7a8eb979b5163e43bb18938caf3aaa55cdacde4e470874c58ca3b4b112ea7a30461a0c27
   languageName: node
   linkType: hard
 
@@ -18598,18 +18540,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-package-data@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "normalize-package-data@npm:2.5.0"
-  dependencies:
-    hosted-git-info: "npm:^2.1.4"
-    resolve: "npm:^1.10.0"
-    semver: "npm:2 || 3 || 4 || 5"
-    validate-npm-package-license: "npm:^3.0.1"
-  checksum: 10c0/357cb1646deb42f8eb4c7d42c4edf0eec312f3628c2ef98501963cc4bbe7277021b2b1d977f982b2edce78f5a1014613ce9cf38085c3df2d76730481357ca504
-  languageName: node
-  linkType: hard
-
 "normalize-path@npm:^2.1.1":
   version: 2.1.1
   resolution: "normalize-path@npm:2.1.1"
@@ -18958,15 +18888,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"opencollective-postinstall@npm:^2.0.2":
-  version: 2.0.3
-  resolution: "opencollective-postinstall@npm:2.0.3"
-  bin:
-    opencollective-postinstall: index.js
-  checksum: 10c0/8a0104a218bc1afaae943f0af378461eeb2836f9848bad872bbd067ec5d1d9791636f307454ab77d0746f10341366f295384656a340ebdb87a2585058e8567e5
-  languageName: node
-  linkType: hard
-
 "opener@npm:1.5.2, opener@npm:^1.5.2":
   version: 1.5.2
   resolution: "opener@npm:1.5.2"
@@ -19223,23 +19144,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-git-config@npm:3.0.0":
+"parse-git-config@npm:^3.0.0":
   version: 3.0.0
   resolution: "parse-git-config@npm:3.0.0"
   dependencies:
     git-config-path: "npm:^2.0.0"
     ini: "npm:^1.3.5"
   checksum: 10c0/a45be8e24359adc35ef830fc0f0064dd21c98ca45f6a1b2caefb8c9c62c9479998662ef9ee14ca72a61300f3849d2635dedd5f8eae11eeef909423eddd442ed5
-  languageName: node
-  linkType: hard
-
-"parse-git-config@patch:parse-git-config@npm%3A3.0.0#~/.yarn/patches/parse-git-config/parse-git-config-npm-3.0.0-9c5773784a.patch":
-  version: 3.0.0
-  resolution: "parse-git-config@patch:parse-git-config@npm%3A3.0.0#~/.yarn/patches/parse-git-config/parse-git-config-npm-3.0.0-9c5773784a.patch::version=3.0.0&hash=3d4ce7"
-  dependencies:
-    git-config-path: "npm:^2.0.0"
-    ini: "npm:^1.3.5"
-  checksum: 10c0/ac22b544cf4cc48a6a86d68985471625f61b32b7fb2e95b9f546b97856caa8fac676fa749394485c42bf74dad37d4f8d67c0aae2e0710a5509b22b2f9a36a116
   languageName: node
   linkType: hard
 
@@ -19250,18 +19161,6 @@ __metadata:
     error-ex: "npm:^1.3.1"
     json-parse-better-errors: "npm:^1.0.1"
   checksum: 10c0/8d80790b772ccb1bcea4e09e2697555e519d83d04a77c2b4237389b813f82898943a93ffff7d0d2406203bdd0c30dcf95b1661e3a53f83d0e417f053957bef32
-  languageName: node
-  linkType: hard
-
-"parse-json@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "parse-json@npm:5.1.0"
-  dependencies:
-    "@babel/code-frame": "npm:^7.0.0"
-    error-ex: "npm:^1.3.1"
-    json-parse-even-better-errors: "npm:^2.3.0"
-    lines-and-columns: "npm:^1.1.6"
-  checksum: 10c0/c2ecbad45b36ef9fe518d0f55a4a2adf0cac71619317a3a9609c635b2d84096b9340b788a712393bfd04484f8020b24d2b31497665ef7137965f3658cdbb5dc2
   languageName: node
   linkType: hard
 
@@ -19537,15 +19436,6 @@ __metadata:
   dependencies:
     find-up: "npm:^4.0.0"
   checksum: 10c0/c56bda7769e04907a88423feb320babaed0711af8c436ce3e56763ab1021ba107c7b0cafb11cde7529f669cfc22bffcaebffb573645cbd63842ea9fb17cd7728
-  languageName: node
-  linkType: hard
-
-"please-upgrade-node@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "please-upgrade-node@npm:3.2.0"
-  dependencies:
-    semver-compare: "npm:^1.0.0"
-  checksum: 10c0/222514d2841022be4b843f38d415beadcc6409c0545d6d153778d71c601bba7bbf1cd5827d650c7fae6a9a2ba7cf00f4b6729b40d015a3a5ba2937e57bc1c435
   languageName: node
   linkType: hard
 
@@ -20367,7 +20257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-svgo@npm:4.0.3":
+"postcss-svgo@npm:^4.0.3":
   version: 4.0.3
   resolution: "postcss-svgo@npm:4.0.3"
   dependencies:
@@ -20375,17 +20265,6 @@ __metadata:
     postcss-value-parser: "npm:^3.0.0"
     svgo: "npm:^1.0.0"
   checksum: 10c0/555eccf33c533e5f28f8441c5b14a2b1f606d56b8a357efad190f8d6d2646c11e088b740ba21798d41ba7c6819b6bd237a805dd1f8ddd44dd5c1c50ab5532f91
-  languageName: node
-  linkType: hard
-
-"postcss-svgo@patch:postcss-svgo@npm%3A4.0.3#./.yarn/patches/postcss-svgo/postcss-svgo-npm-4.0.3-d340b31f35.patch::locator=cierra%40workspace%3A.":
-  version: 4.0.3
-  resolution: "postcss-svgo@patch:postcss-svgo@npm%3A4.0.3#./.yarn/patches/postcss-svgo/postcss-svgo-npm-4.0.3-d340b31f35.patch::version=4.0.3&hash=397d9b&locator=cierra%40workspace%3A."
-  dependencies:
-    postcss: "npm:^7.0.0"
-    postcss-value-parser: "npm:^3.0.0"
-    svgo: "npm:^1.0.0"
-  checksum: 10c0/32aadcc4bfa3193f797fe6c0e2affa3ab601637f10d1117a84a6fa5673da8b29ece5ad843ac419efb77e35a07e3b3f7f53073c1f1780afb48c1e116a1412dc1d
   languageName: node
   linkType: hard
 
@@ -20947,18 +20826,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "read-pkg@npm:5.2.0"
-  dependencies:
-    "@types/normalize-package-data": "npm:^2.4.0"
-    normalize-package-data: "npm:^2.5.0"
-    parse-json: "npm:^5.0.0"
-    type-fest: "npm:^0.6.0"
-  checksum: 10c0/b51a17d4b51418e777029e3a7694c9bd6c578a5ab99db544764a0b0f2c7c0f58f8a6bc101f86a6fceb8ba6d237d67c89acf6170f6b98695d0420ddc86cf109fb
-  languageName: node
-  linkType: hard
-
 "readable-stream@npm:1 || 2, readable-stream@npm:^2.0.0, readable-stream@npm:^2.0.1, readable-stream@npm:^2.0.2, readable-stream@npm:^2.1.5, readable-stream@npm:^2.2.2, readable-stream@npm:^2.3.3, readable-stream@npm:^2.3.6, readable-stream@npm:~2.3.6":
   version: 2.3.7
   resolution: "readable-stream@npm:2.3.7"
@@ -21481,7 +21348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:>=1.9.0, resolve@npm:^1.1.7, resolve@npm:^1.10.0, resolve@npm:^1.2.0, resolve@npm:^1.3.2":
+"resolve@npm:>=1.9.0, resolve@npm:^1.1.7, resolve@npm:^1.2.0, resolve@npm:^1.3.2":
   version: 1.19.0
   resolution: "resolve@npm:1.19.0"
   dependencies:
@@ -21560,7 +21427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A>=1.9.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.2.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.3.2#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A>=1.9.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.2.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.3.2#optional!builtin<compat/resolve>":
   version: 1.19.0
   resolution: "resolve@patch:resolve@npm%3A1.19.0#optional!builtin<compat/resolve>::version=1.19.0&hash=c3c19d"
   dependencies:
@@ -21790,15 +21657,6 @@ __metadata:
   version: 2.4.1
   resolution: "run-async@npm:2.4.1"
   checksum: 10c0/35a68c8f1d9664f6c7c2e153877ca1d6e4f886e5ca067c25cdd895a6891ff3a1466ee07c63d6a9be306e9619ff7d509494e6d9c129516a36b9fd82263d579ee1
-  languageName: node
-  linkType: hard
-
-"run-node@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "run-node@npm:1.0.0"
-  bin:
-    run-node: run-node
-  checksum: 10c0/ab32a065194903e5cd2e4c01e4a5568d22720b4eaa5c853d5386e8d116c59c313e84591f0375913dbe6cc973c2181aed4f54d6b32dba9f7d0d5d01a762de8b6b
   languageName: node
   linkType: hard
 
@@ -22057,13 +21915,6 @@ __metadata:
   version: 3.0.2
   resolution: "secure-json-parse@npm:3.0.2"
   checksum: 10c0/4c9c005e7fdd8528df35fcdec41dc4e8e15820ce52de19f8102da808f9400a9ed8c0a28971e3efe24b001ee1e60296af553f12bbaab81a152f702dd00af2092d
-  languageName: node
-  linkType: hard
-
-"semver-compare@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "semver-compare@npm:1.0.0"
-  checksum: 10c0/9ef4d8b81847556f0865f46ddc4d276bace118c7cb46811867af82e837b7fc473911981d5a0abc561fa2db487065572217e5b06e18701c4281bcdd2a1affaff1
   languageName: node
   linkType: hard
 
@@ -22649,40 +22500,6 @@ __metadata:
   version: 0.7.3
   resolution: "source-map@npm:0.7.3"
   checksum: 10c0/7d2ddb51f3d2451847692a9ac7808da2b2b3bf7aef92ece33128919040a7e74d9a5edfde7a781f035c974deff876afaf83f2e30484faffffb86484e7408f5d7c
-  languageName: node
-  linkType: hard
-
-"spdx-correct@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "spdx-correct@npm:3.1.1"
-  dependencies:
-    spdx-expression-parse: "npm:^3.0.0"
-    spdx-license-ids: "npm:^3.0.0"
-  checksum: 10c0/25909eecc4024963a8e398399dbdd59ddb925bd7dbecd9c9cf6df0d75c29b68cd30b82123564acc51810eb02cfc4b634a2e16e88aa982433306012e318849249
-  languageName: node
-  linkType: hard
-
-"spdx-exceptions@npm:^2.1.0":
-  version: 2.3.0
-  resolution: "spdx-exceptions@npm:2.3.0"
-  checksum: 10c0/83089e77d2a91cb6805a5c910a2bedb9e50799da091f532c2ba4150efdef6e53f121523d3e2dc2573a340dc0189e648b03157097f65465b3a0c06da1f18d7e8a
-  languageName: node
-  linkType: hard
-
-"spdx-expression-parse@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "spdx-expression-parse@npm:3.0.1"
-  dependencies:
-    spdx-exceptions: "npm:^2.1.0"
-    spdx-license-ids: "npm:^3.0.0"
-  checksum: 10c0/6f8a41c87759fa184a58713b86c6a8b028250f158159f1d03ed9d1b6ee4d9eefdc74181c8ddc581a341aa971c3e7b79e30b59c23b05d2436d5de1c30bdef7171
-  languageName: node
-  linkType: hard
-
-"spdx-license-ids@npm:^3.0.0":
-  version: 3.0.7
-  resolution: "spdx-license-ids@npm:3.0.7"
-  checksum: 10c0/b024e1aa286bf9c0097e69b6996e95e75cb1944af656666406932ad6c54baa5b8666eaf6409476d760e8e391aa43091c792a57d63213fbc5f37a63f8f4b8d811
   languageName: node
   linkType: hard
 
@@ -24342,13 +24159,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "type-fest@npm:0.6.0"
-  checksum: 10c0/0c585c26416fce9ecb5691873a1301b5aff54673c7999b6f925691ed01f5b9232db408cdbb0bd003d19f5ae284322523f44092d1f81ca0a48f11f7cf0be8cd38
-  languageName: node
-  linkType: hard
-
 "type-fest@npm:^0.8.0":
   version: 0.8.1
   resolution: "type-fest@npm:0.8.1"
@@ -25029,16 +24839,6 @@ __metadata:
     "@types/istanbul-lib-coverage": "npm:^2.0.1"
     convert-source-map: "npm:^1.6.0"
   checksum: 10c0/aaa6491ee0505010a818a98bd7abdb30c0136a93eac12106b836e1afb519759ea4da795cceaf7fe871d26ed6cb669e46fd48533d6f8107a23213d723a028f805
-  languageName: node
-  linkType: hard
-
-"validate-npm-package-license@npm:^3.0.1":
-  version: 3.0.4
-  resolution: "validate-npm-package-license@npm:3.0.4"
-  dependencies:
-    spdx-correct: "npm:^3.0.0"
-    spdx-expression-parse: "npm:^3.0.0"
-  checksum: 10c0/7b91e455a8de9a0beaa9fe961e536b677da7f48c9a493edf4d4d4a87fd80a7a10267d438723364e432c2fcd00b5650b5378275cded362383ef570276e6312f4f
   languageName: node
   linkType: hard
 

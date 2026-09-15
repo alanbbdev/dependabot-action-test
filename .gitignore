@@ -1,0 +1,49 @@
+# IDE config files
+*.code-workspace
+.idea/
+
+# 3rd party libraries
+node_modules/
+
+# Test/build caches
+.tscache/
+.jest-cache/
+.jest-client-cache/
+
+# Nuxt Build
+.nuxt/
+
+# Nuxt PWA
+sw.*
+workbox-*
+
+# build
+build/
+dist/
+
+# Jest coverage
+coverage/
+
+# Log directory
+log
+
+# Local configurations
+local.yml
+
+# Don't put files not intended to be checked in into git
+deleteme.*
+
+# allow for local bin files that do not get checked in
+bin/local/*
+.DS_Store
+newrelic_agent.log
+
+*.swp
+
+# ignore .env file
+.env
+
+# yarn
+.yarn/*
+!.yarn/releases
+!.yarn/patches
